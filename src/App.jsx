@@ -8,6 +8,17 @@ export default function App() {
     <div className="page">
       {/* HEADER */}
       <header className="header">
+        <div class="container">
+          <h1 class="logo">Alice Clinic Care</h1>
+
+          <nav class="menu">
+            <a href="#especialidades">Especialidades</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+            <a href="#agendamento" class="btn-whatsapp">Agendar</a>
+          </nav>
+        </div>
+
         <h1>{clinicName}</h1>
         <p className="subtitle">Cuidado, movimento e alívio para o seu corpo.</p>
         <a className="cta" href="https://wa.me/5511999999999" target="_blank">
