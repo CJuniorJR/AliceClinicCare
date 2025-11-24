@@ -175,6 +175,7 @@ section {
     width: 95%;
     flex-direction: column;        /* empilha logo e menu */
     align-items: flex-start;       /* alinha à esquerda (ou center) */
+    justify-content: center;
   }
 
   .logo {
