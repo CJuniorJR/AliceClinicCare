@@ -7,9 +7,9 @@ export default function App() {
   return (
     <div className="page">
       {/* HEADER */}
-      <header className="header">
+      <header className="navbar">
         <div class="container">
-          <h1 class="logo">Alice Clinic Care</h1>
+          <h1 class="logo"><a href="#">Alice Clinic Care</a></h1>
 
           <nav class="menu">
             <a href="#especialidades">Especialidades</a>
@@ -18,18 +18,16 @@ export default function App() {
             <a href="#agendamento" class="btn-whatsapp">Agendar</a>
           </nav>
         </div>
-
+        </header>
+      <header className="header">
         <h1>{clinicName}</h1>
         <p className="subtitle">Cuidado, movimento e alívio para o seu corpo.</p>
-        <a className="cta" href="https://wa.me/5511999999999" target="_blank">
-          Agende pelo WhatsApp
-        </a>
       </header>
 
       {/* SERVIÇOS */}
       <section className="services-grid">
   <h2>Especialidades</h2>
-  <div className="services-items">
+  <div className="services-items" id="especialidades">
     <div className="service-card">
       <img src="https://img.icons8.com/ios/50/spine.png" alt="Quiropraxia" />
       <h3>Quiropraxia</h3>
@@ -59,7 +57,7 @@ export default function App() {
 </section>
 
       {/* SOBRE */}
-      <section className="about">
+      <section className="about" id="sobre">
         <h2>Sobre a Clínica</h2>
         <p>
           Nossa missão é restaurar o equilíbrio corporal, aliviar dores e
@@ -70,11 +68,14 @@ export default function App() {
       </section>
 
       {/* CONTATO */}
-      <section className="contact">
+      <section className="contact" id="contato">
         <h2>Contato</h2>
         <p>Agende sua sessão e cuide do seu corpo com quem entende.</p>
         <p><strong>WhatsApp:</strong> (41) 99999-9999</p>
         <p><strong>Endereço:</strong> Rua Exemplo, 123 – Sabará</p>
+        <a className="cta" href="https://wa.me/5511999999999" target="_blank">
+          Agende pelo WhatsApp
+        </a>
       </section>
 
       <footer className="footer">
