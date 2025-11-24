@@ -16,16 +16,36 @@ export default function App() {
       </header>
 
       {/* SERVIÇOS */}
-      <section className="services">
-        <h2>Especialidades</h2>
-        <ul>
-          <li>Quiropraxia</li>
-          <li>Massoterapia</li>
-          <li>Fisioterapia</li>
-          <li>Liberação Miofascial</li>
-          <li>Alongamentos Terapêuticos</li>
-        </ul>
-      </section>
+      <section className="services-grid">
+  <h2>Especialidades</h2>
+  <div className="services-items">
+    <div className="service-card">
+      <img src="https://img.icons8.com/ios/50/spine.png" alt="Quiropraxia" />
+      <h3>Quiropraxia</h3>
+      <p>Alinhamento da coluna, alívio de dores e melhora na qualidade de vida.</p>
+    </div>
+    <div className="service-card">
+      <img src="https://img.icons8.com/ios/50/massage.png" alt="Massoterapia" />
+      <h3>Massoterapia</h3>
+      <p>Relaxamento, alívio muscular e bem-estar através de técnicas manuais.</p>
+    </div>
+    <div className="service-card">
+      <img src="https://img.icons8.com/ios/50/physiotherapy.png" alt="Fisioterapia" />
+      <h3>Fisioterapia</h3>
+      <p>Tratamento e prevenção de lesões, fortalecimento e reabilitação.</p>
+    </div>
+    <div className="service-card">
+      <img src="https://img.icons8.com/ios/50/leg.png" alt="Liberação Miofascial" />
+      <h3>Liberação Miofascial</h3>
+      <p>Redução de tensões e melhora da mobilidade com técnicas manuais.</p>
+    </div>
+    <div className="service-card">
+      <img src="https://img.icons8.com/ios/50/lotus-position.png" alt="Alongamentos Terapêuticos" />
+      <h3>Alongamentos Terapêuticos</h3>
+      <p>Postura, flexibilidade e saúde muscular com alongamentos guiados.</p>
+    </div>
+  </div>
+</section>
 
       {/* SOBRE */}
       <section className="about">
