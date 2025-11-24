@@ -1,35 +1,54 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import "./index.css";
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const clinicName = "Alice Clinic Care"; // TROQUE AQUI
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+    <div className="page">
+      {/* HEADER */}
+      <header className="header">
+        <h1>{clinicName}</h1>
+        <p className="subtitle">Cuidado, movimento e alívio para o seu corpo.</p>
+        <a className="cta" href="https://wa.me/5511999999999" target="_blank">
+          Agende pelo WhatsApp
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      </header>
 
-export default App
+      {/* SERVIÇOS */}
+      <section className="services">
+        <h2>Serviços</h2>
+        <ul>
+          <li>Quiropraxia</li>
+          <li>Massoterapia</li>
+          <li>Fisioterapia</li>
+          <li>Liberação Miofascial</li>
+          <li>Alongamentos Terapêuticos</li>
+        </ul>
+      </section>
+
+      {/* SOBRE */}
+      <section className="about">
+        <h2>Sobre a Clínica</h2>
+        <p>
+          Nossa missão é restaurar o equilíbrio corporal, aliviar dores e
+          promover bem-estar através de terapias manuais e movimento.
+          Cada atendimento é personalizado para respeitar o ritmo e a necessidade
+          do seu corpo.
+        </p>
+      </section>
+
+      {/* CONTATO */}
+      <section className="contact">
+        <h2>Contato</h2>
+        <p>Agende sua sessão e cuide do seu corpo com quem entende.</p>
+        <p><strong>WhatsApp:</strong> (11) 99999-9999</p>
+        <p><strong>Endereço:</strong> Rua Exemplo, 123 – Centro</p>
+      </section>
+
+      <footer className="footer">
+        © {new Date().getFullYear()} {clinicName} — Todos os direitos reservados.
+      </footer>
+    </div>
+  );
+}
