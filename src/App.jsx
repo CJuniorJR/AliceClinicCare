@@ -9,7 +9,11 @@ export default function App() {
       {/* HEADER */}
       <header className="navbar">
         <div class="container">
-          <h1 class="logo"><a href="#">Alice Clinic Care</a></h1>
+          <a href="#" class="logo">
+      <svg width="38" height="38" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2H9v-2h2V9h2v2h2v2h-2v2z" fill="white"/>
+      </svg>
+    </a>
 
           <nav class="menu">
             <a href="#especialidades">Especialidades</a>
