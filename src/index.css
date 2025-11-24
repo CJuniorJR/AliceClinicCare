@@ -15,7 +15,7 @@ body {
 .header {
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(135deg, #94e3d7, #7fbcff);
+  background: linear-gradient(135deg, #c694e3, #927fff);
   color: white;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -29,8 +29,8 @@ body {
   margin-bottom: 20px;
 }
 .cta {
-  background: #8a7b9e;
-  color: hsl(263, 100%, 50%);
+  background: #fff;
+  color: #0d6efd;
   padding: 12px 20px;
   border-radius: 50px;
   text-decoration: none;
