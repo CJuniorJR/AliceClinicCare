@@ -29,8 +29,8 @@ body {
   margin-bottom: 20px;
 }
 .cta {
-  background: #fff;
-  color: #0d6efd;
+  background: #8a7b9e;
+  color: hsl(263, 100%, 50%);
   padding: 12px 20px;
   border-radius: 50px;
   text-decoration: none;

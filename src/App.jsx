@@ -17,7 +17,7 @@ export default function App() {
 
       {/* SERVIÇOS */}
       <section className="services">
-        <h2>Serviços</h2>
+        <h2>Especialidades</h2>
         <ul>
           <li>Quiropraxia</li>
           <li>Massoterapia</li>
