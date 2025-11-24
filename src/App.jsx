@@ -42,8 +42,8 @@ export default function App() {
       <section className="contact">
         <h2>Contato</h2>
         <p>Agende sua sessão e cuide do seu corpo com quem entende.</p>
-        <p><strong>WhatsApp:</strong> (11) 99999-9999</p>
-        <p><strong>Endereço:</strong> Rua Exemplo, 123 – Centro</p>
+        <p><strong>WhatsApp:</strong> (41) 99999-9999</p>
+        <p><strong>Endereço:</strong> Rua Exemplo, 123 – Sabará</p>
       </section>
 
       <footer className="footer">
